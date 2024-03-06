@@ -50,3 +50,10 @@ let miarreglo = [1, 2, 3, 4, 5];//array longitud
 let longitud = miarreglo.length;
 
 console.log("La longitud del array es:", longitud);
+
+//-----------------------------------------------
+const miArray6 = [1, 2, 3, 4, 5];//array de agregar elementos
+miArray6.push(6);
+miArray6.push(7);
+
+console.log(miArray6);
