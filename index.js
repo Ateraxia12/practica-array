@@ -22,3 +22,11 @@ let array2 = [4, 5, 6];
 let arrayCombinado = [...array1, ...array2];
 
 console.log(arrayCombinado);
+
+let arrayConRepetidos = [1, 2, 2, 3, 4, 4, 5];//array repetitidos
+
+let conjunto = new Set(arrayConRepetidos);
+
+let arraySinRepetidos = [...conjunto];
+
+console.log(arraySinRepetidos); 
