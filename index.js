@@ -57,3 +57,11 @@ miArray6.push(6);
 miArray6.push(7);
 
 console.log(miArray6);
+//------------------------------------------------array eliminar ultimo
+let miArray7 = [1, 2, 3, 4, 5];
+
+// Eliminar el último elemento del array usando pop()
+let elementoEliminado = miArray7.pop();
+
+console.log("Elemento eliminado:", elementoEliminado); 
+console.log("Array después de eliminar el último elemento:", miArray7);
