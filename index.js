@@ -30,3 +30,17 @@ let conjunto = new Set(arrayConRepetidos);
 let arraySinRepetidos = [...conjunto];
 
 console.log(arraySinRepetidos); 
+
+//---------------------------------------------------
+// Función para generar valores dinámicamente //--array dinamico
+function generarValores(numElementos) {
+    let array = [];
+    for (let i = 0; i < numElementos; i++) {
+        array.push(Math.random() * 100); // Generar valores aleatorios entre 0 y 100
+    }
+    return array;
+}
+
+let arrayGenerado = generarValores(5);
+
+console.log(arrayGenerado); 
