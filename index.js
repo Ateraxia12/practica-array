@@ -112,3 +112,8 @@ let nuevaArray = miArray13.slice(0, 2).concat(miArray13.slice(3));
 
 console.log("Nuevo array:", nuevaArray); 
 console.log("Array original:", miArray13);
+//-------------------------------------------------Array de agregar multiples elementos al inicio
+let miArray14 = [3, 4, 5];
+let nuevosElementos = [1, 2];
+miArray14.unshift(...nuevosElementos);
+console.log(miArray14);
