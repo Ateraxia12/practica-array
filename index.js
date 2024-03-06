@@ -90,3 +90,10 @@ let porcionArray = miArray10.slice(1, 4);
 
 console.log("Porción del array:", porcionArray); // Imprimirá la porción del array
 console.log("Array original:", miArray10);
+
+//-----------------------array de convertir a string
+let miArray11 = ["Hola", "mundo", "cómo", "están?"];
+
+let miString = miArray11.join(" ");
+
+console.log(miString);
