@@ -80,3 +80,13 @@ let elementoEliminado2 = miArray9.shift();
 
 console.log("Elemento eliminado:", elementoEliminado2);
 console.log("Array después de eliminar el primer elemento:", miArray9);
+
+//---------------------------------array de usando
+
+let miArray10 = [15, 30, 35, 40, 45];
+
+// Obtener una porción del array usando slice()
+let porcionArray = miArray10.slice(1, 4);
+
+console.log("Porción del array:", porcionArray); // Imprimirá la porción del array
+console.log("Array original:", miArray10);
