@@ -104,3 +104,11 @@ let subseccionArray = miArray12.slice(-3);
 
 console.log("Subsección del array:", subseccionArray); 
 console.log("Array original:", miArray12);
+
+//-------------------------Array de Eliminar una porción del array sin modificar el original 
+
+let miArray13 = [1, 2, 3, 4, 5];
+let nuevaArray = miArray13.slice(0, 2).concat(miArray13.slice(3));
+
+console.log("Nuevo array:", nuevaArray); 
+console.log("Array original:", miArray13);
