@@ -44,3 +44,9 @@ function generarValores(numElementos) {
 let arrayGenerado = generarValores(5);
 
 console.log(arrayGenerado); 
+
+let miarreglo = [1, 2, 3, 4, 5];//array longitud
+
+let longitud = miarreglo.length;
+
+console.log("La longitud del array es:", longitud);
