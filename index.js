@@ -15,3 +15,10 @@ let cadena = "Hola, cómo estás? Espero que bien.";//array de cadena texto
 let arrayDePalabras = cadena.split(" ");
 
 console.log(arrayDePalabras);
+
+let array1 = [1, 2, 3];//array combinado 
+let array2 = [4, 5, 6];
+
+let arrayCombinado = [...array1, ...array2];
+
+console.log(arrayCombinado);
