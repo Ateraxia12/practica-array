@@ -97,3 +97,10 @@ let miArray11 = ["Hola", "mundo", "cómo", "están?"];
 let miString = miArray11.join(" ");
 
 console.log(miString);
+
+//-----------------------------array desde un índice negativo
+let miArray12 = [1, 2, 3, 4, 5];
+let subseccionArray = miArray12.slice(-3);
+
+console.log("Subsección del array:", subseccionArray); 
+console.log("Array original:", miArray12);
